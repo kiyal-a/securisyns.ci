@@ -64,7 +64,7 @@ body{
 .bienvenue2{
     text-align: center;
     font-size: 50px;
-    margin-top: 600px;
+    margin-top: 500px;
 }
 .grid {
     display: grid;
@@ -114,4 +114,62 @@ button:hover {
     background: #11dbca;
     color: #fff;
     border-color: #fff;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.footer-content iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content a {
+    color: white;
+    margin: 0 5px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-content .btn-newsletter {
+    display: inline-block;
+    background: #ff8c00;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer-bottom {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #444;
 }
